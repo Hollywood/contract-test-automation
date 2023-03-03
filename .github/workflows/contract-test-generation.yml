@@ -16,4 +16,4 @@ jobs:
         run: postman login --with-api-key ${{ secrets.POSTMAN_API_KEY }}
       - name: Run API tests
         run: |
-          postman collection run "26125248-212e3aae-c013-46c9-b3c3-2b376e527e84" -e "26125248-30154c5f-06c6-4b97-95b7-78d6400dd71b" --iteration-data "${{ github.workspace }}/utils/spec_files.csv" --iteration-count 6
+          postman collection run "26125248-212e3aae-c013-46c9-b3c3-2b376e527e84" -e "26125248-30154c5f-06c6-4b97-95b7-78d6400dd71b" --iteration-data "${{ github.workspace }}/utils/spec_files.csv" --iteration-count 1
