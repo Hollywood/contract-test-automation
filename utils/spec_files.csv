@@ -1,6 +1,6 @@
 file
-api-with-examples.yaml
-callback-example.yaml
-link-example.yaml
-petstore.yaml
-uspto.yaml
+specs/api-with-examples.yaml
+specs/callback-example.yaml
+specs/link-example.yaml
+specs/petstore.yaml
+specs/uspto.yaml
